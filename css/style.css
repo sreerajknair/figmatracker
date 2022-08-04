@@ -570,7 +570,10 @@ table {
     border: #000000;
     margin-bottom: 1rem;
 }
-
+.card1{
+    height:4.75rem;
+    width:100%
+}
 .main_graph {
     height: calc(100% - 2rem);
     width: 100%;
