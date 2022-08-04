@@ -339,7 +339,93 @@ table {
     flex-direction: column;
 
 }
-
+.joey2{
+    font-size: 2.188rem;
+    color: #FFFFFF;
+    line-height:2.813rem;
+    margin-right:  0.375rem;
+}
+.axies2{
+    margin-right:  0.375rem;
+    color:#B2C2CB;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+}
+.three2{
+    font-size: 1.438rem;
+    font-weight: 500;
+    color: #0ED2F6;
+    margin-right:  0.375rem;
+}
+.scholar1{
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+    color: #FFFFFF;
+}
+.slp2{
+    margin-right:  0.375rem;
+    color:#0ED2F6;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+}
+.usd4{
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+.pro-img11{
+    margin-bottom:1rem;
+}
+.joey3{
+    font-size: 2.188rem;
+    color: #FFFFFF;
+    line-height:2.813rem;
+    margin-right:  0.375rem;
+}
+.axies3{
+    margin-right:  0.375rem;
+    color:#B2C2CB;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+}
+.three3{
+    font-size: 1.438rem;
+    font-weight: 500;
+    color: #0ED2F6;
+    margin-right:  0.375rem;
+}
+.scholar2{
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+    color: #FFFFFF
+}
+.slp3{
+    margin-right:  0.375rem;
+    color:#0ED2F6;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+}
+.usd5{
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+.scholar3{
+    font-size: 0.875rem;
+    line-height: 1.438rem;
+    color: #FFFFFF
+}
+.slp4{
+    margin-right:  0.375rem;
+    color:#0ED2F6;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+}
+.usd6{
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
 .first_body {
     display: flex;
     flex-direction: column;
