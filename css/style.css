@@ -572,6 +572,14 @@ table {
 }
 .card1{
     height:4.75rem;
+    width:100%;
+}
+.card2{
+    height:4.75rem;
+    width:100%;
+}
+.card3{
+    height:12.625rem;
     width:100%
 }
 .main_graph {
