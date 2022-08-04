@@ -3,9 +3,6 @@ html,
 body,
 div,
 span,
-applet,
-object,
-iframe,
 h1,
 h2,
 h3,
@@ -15,32 +12,8 @@ h6,
 p,
 blockquote,
 pre,
-a,
-abbr,
-acronym,
 address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
 img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
 center,
 dl,
 dt,
@@ -51,35 +24,12 @@ li,
 fieldset,
 form,
 label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
 details,
-embed,
-figure,
-figcaption,
 footer,
 header,
-hgroup,
 menu,
 nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+section{
     margin: 0;
     padding: 0;
     border: 0;
@@ -89,14 +39,10 @@ video {
 }
 
 
-article,
-aside,
+
 details,
-figcaption,
-figure,
 footer,
 header,
-hgroup,
 menu,
 nav,
 section {
@@ -445,7 +391,7 @@ table {
     align-items: center;
 }
 
-.sqr_card_container {
+.small_card_container {
     width: 52.5rem;
     height: 27.313rem;
 }
@@ -458,7 +404,7 @@ table {
     justify-content: space-between;
 }
 
-.sqr_card {
+.small_card {
     width: 14rem;
     height: 11rem;
     background: #2E333A;
@@ -482,20 +428,20 @@ table {
     margin-top: 0.625rem;
 }
 
-.graph_sec {
+.graph {
     height: 3.5rem;
     display: flex;
     flex-direction: column;
     width: fit-content;
 }
 
-.graph_sec_1 {
+.graph_1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.graph_sec_1 img {
+.graph_1 img {
     width: 9.063rem;
     height: 2.125rem;
     padding-left: 0.938rem;
@@ -755,8 +701,8 @@ table {
 @media only screen and (max-width: 540px) {
     .search {
         display: block;
-        width: 5rem;
-        height: 4rem;
+        width: 15rem;
+        height: 3.5rem;
     }
     .search_bar{
         display: block;
@@ -764,17 +710,21 @@ table {
         width: 7rem;
         height: 2rem;
         top:4.2rem;
-        left: 33.25rem;
+        left: 23.25rem;
     }
     .search_icon{
         display: none;
+    }
+    .tech_img{
+      height: 5rem;
+      width: 14rem;
     }
 }
 @media only screen and (max-width: 500px) {
     .search {
         display: block;
-        width: 5rem;
-        height: 4rem;
+        width: 14rem;
+        height: 3rem;
     }
     .search_bar{
         display: block;
@@ -782,7 +732,7 @@ table {
         width: 7rem;
         height: 2rem;
         top:4.2rem;
-        left: 30.25rem;
+        left: 22.25rem;
     }
     .search_icon{
         display: none;
@@ -840,7 +790,7 @@ table {
         gap: 2.5rem;
     }
 
-    .sqr_card_container {
+    .small_card_container {
         width: auto;
         height: auto;
     }
@@ -859,7 +809,7 @@ table {
 @media only screen and (max-width: 414px) {
     .search {
         display: block;
-        width: 5rem;
+        width: 10rem;
         height: 4rem;
     }
     .search_bar{
@@ -867,46 +817,170 @@ table {
         position: absolute;
         width: 7rem;
         height: 2rem;
-        top:5.6rem;
-        left: 19.7rem;
+        top:5.5rem;
+        left: 15.80rem;
     }
     .search_icon{
         display: none;
+    }
+    .tech_img{
+        height: 3.5rem;
+        width: 10rem;
     }
 }
 @media only screen and (max-width: 390px) {
     .search {
         display: block;
-        width: 5rem;
-        height: 4rem;
+        width: 10rem;
+        height: 3.5rem;
+        position: absolute;
+        top: 5rem;
+        left: 12.80rem;
     }
     .search_bar{
         display: block;
         position: absolute;
         width: 7rem;
         height: 2rem;
-        top:5.2rem;
-        left: 19rem;
+        top:0.60rem;
+        left: 1.50rem;
     }
     .search_icon{
         display: none;
+    }
+    .tech_img{
+        height: 3.5rem;
+        width: 10rem;
     }
 }
 @media only screen and (max-width: 375px) {
     .search {
         display: block;
-        width: 5rem;
-        height: 4rem;
+        width: 10rem;
+        height: 3.5rem;
+        position: absolute;
+        top: 4rem;
+        left: 12.80rem;
     }
     .search_bar{
         display: block;
         position: absolute;
         width: 7rem;
         height: 2rem;
-        top:4.2rem;
-        left: 17.50rem;
+        top:0.50rem;
+        left: 1.50rem;
     }
     .search_icon{
+        display: none;
+    }
+    .tech_img{
+        height: 3.5rem;
+        width: 10rem;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .search {
+        display: block;
+        width: 10rem;
+        height: 3.5rem;
+        position: absolute;
+        top: 4rem;
+        left: 11.80rem;
+    }
+    .search_bar{
+        display: block;
+        position: absolute;
+        width: 7rem;
+        height: 2rem;
+        top:0.50rem;
+        left: 1.50rem;
+    }
+    .search_icon{
+        display: none;
+    }
+    .tech_img{
+        height: 3.5rem;
+        width: 9.00rem;
+    }
+}
+@media only screen and (max-width: 353px) {
+    .search {
+        display: block;
+        width: 10rem;
+        height: 3.5rem;
+        position: absolute;
+        top: 4rem;
+        left: 10.80rem;
+    }
+    .search_bar{
+        display: block;
+        position: absolute;
+        width: 7rem;
+        height: 2rem;
+        top:0.50rem;
+        left: 1.50rem;
+    }
+    .search_icon{
+        display: none;
+    }
+    .tech_img{
+        height: 3rem;
+        width: 9rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .search {
+        display: block;
+        width: 10rem;
+        height: 3.5rem;
+        position: absolute;
+        top: 4rem;
+        left: 12.80rem;
+    }
+    .search_bar{
+        display: block;
+        position: absolute;
+        width: 7rem;
+        height: 2rem;
+        top:0.50rem;
+        left: 2.50rem;
+    }
+    .search_icon{
+        display: none;
+    }
+    .tech_img{
+        height: 3rem;
+        width: 9rem;
+    }
+    .card_btn{
+        display: none;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .search {
+        display: block;
+        width: 10rem;
+        height: 3.5rem;
+        position: absolute;
+        top: 4rem;
+        left: 12.80rem;
+    }
+    .search_bar{
+        display: block;
+        position: absolute;
+        width: 7rem;
+        height: 2rem;
+        top:0.50rem;
+        left: 2.50rem;
+    }
+    .search_icon{
+        display: none;
+    }
+    .tech_img{
+        height: 3rem;
+        width: 9rem;
+    }
+    .card_btn{
         display: none;
     }
 }
